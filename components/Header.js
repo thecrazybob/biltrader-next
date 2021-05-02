@@ -76,7 +76,7 @@ export default function Example() {
                     className="h-8 w-auto sm:h-10"
                     src="/images/logo.svg"
                     alt="Logo"
-                    height={100}
+                    height={70}
                     width={300}
                   />
                   </a>
