@@ -74,7 +74,7 @@ export default function Example() {
                   <span className="sr-only">Workflow</span>
                   <Image
                     className="h-8 w-auto sm:h-10"
-                    src="/images/bilkent.jpg"
+                    src="/images/logo.svg"
                     alt="Logo"
                     height={100}
                     width={300}
