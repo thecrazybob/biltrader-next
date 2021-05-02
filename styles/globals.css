@@ -69,7 +69,7 @@
     height: 30px;
     justify-content: center;
     align-items: center;
-    fill: #1bcacd;
+    fill: #2563eb;
     padding: 0;
 }
 
@@ -122,6 +122,6 @@
 }
 
 .embla__dot.is-selected:after {
-    background-color: #1bcacd;
+    background-color: #2563eb;
     opacity: 1;
 }
