@@ -18,6 +18,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
 import Image from 'next/image'
+import Logo from './Logo'
 
 const categories = [
   {
@@ -61,7 +62,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Header() {
   return (
     <Popover className="relative bg-white">
       {({ open }) => (
@@ -69,18 +70,7 @@ export default function Example() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Link href="/">
-                    <a>
-                  <span className="sr-only">Workflow</span>
-                  <Image
-                    className="h-8 w-auto sm:h-10"
-                    src="/images/logo.svg"
-                    alt="Logo"
-                    height={70}
-                    width={300}
-                  />
-                  </a>
-                </Link>
+                  <Logo className="h-8 w-auto sm:h-10"></Logo>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
@@ -164,12 +154,13 @@ export default function Example() {
                 <Link href="/login" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
                   <a>Sign in</a>
                 </Link>
+                <Link href="/register">
                 <a
-                  href="#"
                   className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
                 >
                   Sign up
                 </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -234,12 +225,13 @@ export default function Example() {
                     ))}
                   </div>
                   <div>
+                      <Link href="/register">
                     <a
-                      href="#"
                       className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
                     >
                       Sign up
                     </a>
+                    </Link>
                     <p className="mt-6 text-center text-base font-medium text-gray-500">
                       Already Registered? {' '}
                       <Link href="/login" className="text-blue-600 hover:text-blue-500">

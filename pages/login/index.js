@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link';
+import Logo from '../../components/Logo';
 
 const Login = () => {
     return (
@@ -7,18 +7,11 @@ const Login = () => {
             <div className="min-h-screen bg-white flex">
                 <div className="flex-1 flex flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
                     <div className="mx-auto w-full max-w-sm lg:w-96">
-                            <Link href="/">
-                                <a>
-                                        <img
-                                            className="h-12 w-auto"
-                                            src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg"
-                                            alt="Workflow"
-                                        />
+                            <Logo></Logo>
                                         <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
                                             Sign in to your account
                                         </h2>
-                                </a>
-                            </Link>
+
                         <div className="mt-8">
                             <div className="mt-6">
                                 <form
