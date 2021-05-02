@@ -1,209 +1,195 @@
-import Head from 'next/head'
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ListingCard from "../components/ListingCard";
+import Image from 'next/image'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <Header />
+      {/* Start of Hero Section  */}
+      <div className="relative bg-white overflow-hidden">
+        <div
+          className="hidden lg:block lg:absolute lg:inset-0"
+          aria-hidden="true"
+        ></div>
+        <div className="relative pt-6 pb-16 sm:pb-10 lg:pb-12">
+          <main className="mt-1 mx-auto max-w-7xl px-4 sm:mt-5 sm:px-6 lg:mt-3">
+            <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+              <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                <h1>
+                  <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
+                    Coming soon
+                  </span>
+                  <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
+                    <span className="block text-gray-900">
+                      Buy And Sell Second hand
+                    </span>
+                    <span className="block text-blue-700">
+                      Find Great Deals!
+                    </span>
+                  </span>
+                </h1>
+                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  Make some extra cash by selling things in your community. Go
+                  on, it's quick and easy.
+                </p>
+                <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                  <form action="#" method="POST" className="mt-3 sm:flex">
+                    <label htmlFor="email" className="sr-only">
+                      Email
+                    </label>
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-blue-700 focus:border-blue-700 sm:flex-1 border-gray-300"
+                      placeholder="Search for anything.."
+                    />
+                    <button
+                      type="submit"
+                      className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+                    >
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                <div className="relative mx-auto w-full rounded-lg lg:max-w-md">
 
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <Image
+        src="/images/home-hero.svg"
+        alt="Hero picture"
+        width={450}
+        height={350}
+        quality={100}
+        className="w-full transform scale-150"
+      />
+                  <div
+                    className="absolute inset-0 w-full h-full flex items-center justify-center"
+                    aria-hidden="true"
+                  >
+                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
         </div>
-      </main>
+      </div>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
+      {/* Start of Popular Categories */}
+      <div className="bg-white">
+        <div className="max-w-7xl mx-auto py-10 px-4 text-center sm:px-6 lg:px-8 lg:py-15">
+          <div className="space-y-12">
+            <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+                Explore Popular Categories
+              </h2>
+            </div>
+            <div className="flex flex-row flex-wrap space-x-3 justify-center">
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down min-h-25 min-w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Shoes</h3>
+                  </div>
+                </div>
+              </div>
 
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down h-25 w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/p30AAOSw1A1f4xc6/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Smartphone</h3>
+                  </div>
+                </div>
+              </div>
 
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down min-h-25 min-w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Shoes</h3>
+                  </div>
+                </div>
+              </div>
 
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down h-25 w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/p30AAOSw1A1f4xc6/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Smartphone</h3>
+                  </div>
+                </div>
+              </div>
 
-        footer img {
-          margin-left: 0.5rem;
-        }
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down min-h-25 min-w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Shoes</h3>
+                  </div>
+                </div>
+              </div>
 
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+              <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down h-25 w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/p30AAOSw1A1f4xc6/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Smartphone</h3>
+                  </div>
+                </div>
+              </div>
+  <div className="w-36 mb-5">
+                <img
+                  className="mx-auto object-scale-down h-25 w-25 rounded-full "
+                  src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp"
+                  alt=""
+                />
+                <div className="space-y-2">
+                  <div className="text-lg leading-6 font-medium space-y-1">
+                    <h3>Shoes</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
+      {/* End of Popular Categories */}
 
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
+      <ListingCard />
+      <Footer />
+    </>
+  );
+};
 
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
-}
+export default Home;
