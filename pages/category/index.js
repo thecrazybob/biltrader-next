@@ -20,11 +20,11 @@ const Category = () => {
                       <input
                         type="text"
                         placeholder="Search Here..."
-                        className="pr-12 pl-4 w-full h-12 rounded-md border border-gray-200 border-solid cursor-text focus:shadow-none focus:no-underline"
+                        className="pr-12 pl-4 w-full h-12 rounded-md border border-gray-200 border-solid cursor-text focus:shadow-none focus:no-"
                       />
                       <button
                         type="submit"
-                        className="block absolute w-10 h-10 text-center normal-case bg-transparent rounded-md border-none cursor-pointer focus:shadow-none focus:no-underline hover:text-purple-700"
+                        className="block absolute w-10 h-10 text-center normal-case bg-transparent rounded-md border-none cursor-pointer focus:shadow-none focus:no- hover:text-purple-700"
                         style={{
                           right: "5px",
                           top: "50%",
@@ -45,13 +45,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Hotel &amp; Travels
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -66,13 +66,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Services
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -87,13 +87,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Marketing
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -108,13 +108,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Real Estate
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -129,13 +129,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Electronics
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -150,13 +150,13 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Dress &amp; Clothing
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -171,13 +171,13 @@ const Category = () => {
                       <li className="text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
                           <i className="inline-block mr-1 leading-4 normal-case" />
                           Jewelry &amp; Accessories
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no-underline border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -197,7 +197,7 @@ const Category = () => {
                     </h3>
                     <input
                       type="range"
-                      className="w-full h-6 bg-transparent appearance-none cursor-pointer focus:shadow-none focus:no-underline"
+                      className="w-full h-6 bg-transparent appearance-none cursor-pointer focus:shadow-none focus:no-"
                       name="range"
                       step={1}
                       min={100}
@@ -216,7 +216,7 @@ const Category = () => {
                         type="text"
                         id="rangePrimary"
                         placeholder={100}
-                        className="inline-block border-none cursor-pointer focus:shadow-none focus:no-underline"
+                        className="inline-block border-none cursor-pointer focus:shadow-none focus:no-"
                         style={{ borderWidth: "medium" }}
                       />
                     </div>
@@ -230,7 +230,7 @@ const Category = () => {
                       style={{ minHeight: "1.5rem" }}
                     >
                       <input
-                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-underline"
+                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-"
                         type="checkbox"
                         defaultValue
                         id="flexCheckDefault1"
@@ -251,7 +251,7 @@ const Category = () => {
                       style={{ minHeight: "1.5rem" }}
                     >
                       <input
-                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-underline"
+                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-"
                         type="checkbox"
                         defaultValue
                         id="flexCheckDefault2"
@@ -269,7 +269,7 @@ const Category = () => {
                     </div>
                     <div className="block pl-6" style={{ minHeight: "1.5rem" }}>
                       <input
-                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-underline"
+                        className="float-left mt-1 -ml-6 w-4 h-4 align-top bg-no-repeat bg-contain rounded border border-gray-500 border-solid appearance-none cursor-pointer focus:border-blue-300 focus:shadow-xs focus:no-"
                         type="checkbox"
                         defaultValue
                         id="flexCheckDefault3"
@@ -311,7 +311,7 @@ const Category = () => {
                                 }}
                               >
                                 <button
-                                  className="block py-1 px-2 mr-1 -mb-px text-center text-white no-underline normal-case bg-scroll bg-purple-700 bg-repeat bg-none rounded rounded-t border border-transparent border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no-underline hover:border-gray-300"
+                                  className="block py-1 px-2 mr-1 -mb-px text-center text-white no- normal-case bg-scroll bg-purple-700 bg-repeat bg-none rounded rounded-t border border-transparent border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no- hover:border-gray-300"
                                   id="nav-grid-tab"
                                   data-bs-toggle="tab"
                                   data-bs-target="#nav-grid"
@@ -328,7 +328,7 @@ const Category = () => {
                                   <i className="inline-block leading-4 normal-case" />
                                 </button>
                                 <button
-                                  className="block py-1 px-2 text-center text-black no-underline normal-case bg-scroll bg-repeat bg-none rounded rounded-t border border-gray-200 border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no-underline hover:border-gray-300"
+                                  className="block py-1 px-2 text-center text-black no- normal-case bg-scroll bg-repeat bg-none rounded rounded-t border border-gray-200 border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no- hover:border-gray-300"
                                   id="nav-list-tab"
                                   data-bs-toggle="tab"
                                   data-bs-target="#nav-list"
@@ -369,7 +369,7 @@ const Category = () => {
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -393,7 +393,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -407,7 +407,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Mobile
@@ -421,7 +421,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Apple Iphone X
@@ -430,7 +430,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -447,7 +447,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -471,7 +471,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -495,7 +495,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -509,7 +509,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Others
@@ -523,7 +523,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Travel Kit
@@ -532,7 +532,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -549,7 +549,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -573,7 +573,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -597,7 +597,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -611,7 +611,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Electronic
@@ -625,7 +625,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Nikon DSLR Camera
@@ -634,7 +634,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -651,7 +651,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -675,7 +675,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -699,7 +699,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -713,7 +713,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Furniture
@@ -727,7 +727,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Poster Paint
@@ -736,7 +736,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -753,7 +753,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -777,7 +777,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -801,7 +801,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -815,7 +815,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Furniture
@@ -829,7 +829,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Official Metting Chair
@@ -838,7 +838,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -855,7 +855,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -879,7 +879,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -903,7 +903,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-green-800 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-green-800 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -917,7 +917,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Books &amp; Magazine
@@ -931,7 +931,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Story Book
@@ -940,7 +940,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -957,7 +957,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -981,7 +981,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -1005,7 +1005,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -1019,7 +1019,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Electronic
@@ -1033,7 +1033,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Cctv camera
@@ -1042,7 +1042,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -1059,7 +1059,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -1083,7 +1083,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -1108,7 +1108,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -1122,7 +1122,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Mobile
@@ -1136,7 +1136,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Apple Iphone X
@@ -1145,7 +1145,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -1162,7 +1162,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -1186,7 +1186,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -1210,7 +1210,7 @@ layout='fill'
                                     }}
                                   />
                                   <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                     style={{
                                       transition: "all 0.4s ease 0s",
                                       top: "15px",
@@ -1224,7 +1224,7 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Mobile
@@ -1238,7 +1238,7 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Samsung Glalaxy S8
@@ -1247,7 +1247,7 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
@@ -1264,7 +1264,7 @@ layout='fill'
                                     <li className="float-right text-left">
                                       <a
                                         href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           borderRadius: "50%",
@@ -1288,7 +1288,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1300,7 +1300,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white underline bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white  bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1312,7 +1312,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1324,7 +1324,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1336,7 +1336,7 @@ layout='fill'
                                   <li className="inline-block mt-2">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1371,7 +1371,7 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1399,7 +1399,7 @@ layout='fill'
                                         }}
                                       />
                                       <span
-                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           top: "15px",
@@ -1415,7 +1415,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1431,7 +1431,7 @@ layout='fill'
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1442,7 +1442,7 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1461,7 +1461,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1489,7 +1489,7 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1517,7 +1517,7 @@ layout='fill'
                                         }}
                                       />
                                       <span
-                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           top: "15px",
@@ -1533,7 +1533,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1549,7 +1549,7 @@ layout='fill'
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1560,7 +1560,7 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1579,7 +1579,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1607,7 +1607,7 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1635,7 +1635,7 @@ layout='fill'
                                         }}
                                       />
                                       <span
-                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           top: "15px",
@@ -1651,7 +1651,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1667,7 +1667,7 @@ layout='fill'
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1678,7 +1678,7 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1697,7 +1697,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1725,7 +1725,7 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1753,7 +1753,7 @@ layout='fill'
                                         }}
                                       />
                                       <span
-                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-red-600 rounded-sm"
+                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           top: "15px",
@@ -1769,7 +1769,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1785,7 +1785,7 @@ layout='fill'
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1796,7 +1796,7 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1815,7 +1815,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1843,7 +1843,7 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1871,7 +1871,7 @@ layout='fill'
                                         }}
                                       />
                                       <span
-                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no-underline capitalize bg-green-800 rounded-sm"
+                                        className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-green-800 rounded-sm"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           top: "15px",
@@ -1887,7 +1887,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1903,7 +1903,7 @@ layout='fill'
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1914,7 +1914,7 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600 underline cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1933,7 +1933,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 underline border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1959,7 +1959,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1971,7 +1971,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white underline bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white  bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1983,7 +1983,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1995,7 +1995,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -2007,7 +2007,7 @@ layout='fill'
                                   <li className="inline-block mt-2">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center underline bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
