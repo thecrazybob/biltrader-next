@@ -9,7 +9,7 @@ export default function Logo(props) {
                   className={props.className}
                   src="/images/logo.svg"
                   alt="Logo"
-                  height={70}
+                  height={props.height ?? 70}
                   width={300}
                 />
             </a>
