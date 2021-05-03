@@ -1,11 +1,12 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Image from 'next/image'
 
 const Category = () => {
   return (
     <>
       <Header />
-      <div className="max-w-7xl">
+      <div className="max-w-7xl mx-auto">
         <section className="relative py-24 leading-6 text-gray-900 bg-gray-100 md:md:py-16">
           <div className="mx-auto w-full text-gray-900 max-w-screen-2xl">
             <div className="flex flex-wrap">
@@ -371,8 +372,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-1.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -472,8 +474,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-2.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -573,8 +576,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-3.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -674,8 +678,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-4.jpg"
+                                    <Image
+                                    layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -775,8 +780,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-5.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -876,8 +882,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-6.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -977,8 +984,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-7.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -1078,8 +1086,10 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-1.jpg"
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -1179,8 +1189,9 @@ const Category = () => {
                                     className="inline-block w-full text-blue-600 underline cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    <img
-                                      src="assets/images/items-tab/item-8.jpg"
+                                    <Image
+layout='fill'
+                                      src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
@@ -1365,8 +1376,9 @@ const Category = () => {
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <img
-                                          src="assets/images/items-tab/item-2.jpg"
+                                        <Image
+layout='fill'
+                                          src="https://picsum.photos/id/0/5616/3744"
                                           alt="#"
                                           className="w-full align-middle"
                                           style={{
@@ -1482,8 +1494,9 @@ const Category = () => {
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <img
-                                          src="assets/images/items-tab/item-3.jpg"
+                                        <Image
+layout='fill'
+                                          src="https://picsum.photos/id/0/5616/3744"
                                           alt="#"
                                           className="w-full align-middle"
                                           style={{
@@ -1599,8 +1612,9 @@ const Category = () => {
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <img
-                                          src="assets/images/items-tab/item-1.jpg"
+                                        <Image
+layout='fill'
+                                          src="https://picsum.photos/id/0/5616/3744"
                                           alt="#"
                                           className="w-full align-middle"
                                           style={{
@@ -1716,8 +1730,9 @@ const Category = () => {
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <img
-                                          src="assets/images/items-tab/item-4.jpg"
+                                        <Image
+layout='fill'
+                                          src="https://picsum.photos/id/0/5616/3744"
                                           alt="#"
                                           className="w-full align-middle"
                                           style={{
@@ -1833,8 +1848,9 @@ const Category = () => {
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <img
-                                          src="assets/images/items-tab/item-6.jpg"
+                                        <Image
+layout='fill'
+                                          src="https://picsum.photos/id/0/5616/3744"
                                           alt="#"
                                           className="w-full align-middle"
                                           style={{
