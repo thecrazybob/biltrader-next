@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ListingCard from "../components/ListingCard";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -57,16 +57,14 @@ const Home = () => {
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
                 <div className="relative mx-auto w-full rounded-lg lg:max-w-md">
-
-
-    <Image
-        src="/images/home-hero.svg"
-        alt="Hero picture"
-        width={450}
-        height={350}
-        quality={100}
-        className="w-full transform scale-150"
-      />
+                  <Image
+                    src="/images/home-hero.svg"
+                    alt="Hero picture"
+                    width={450}
+                    height={350}
+                    quality={100}
+                    className="w-full transform scale-150"
+                  />
                   <div
                     className="absolute inset-0 w-full h-full flex items-center justify-center"
                     aria-hidden="true"
@@ -167,7 +165,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-  <div className="w-36 mb-5">
+              <div className="w-36 mb-5">
                 <img
                   className="mx-auto object-scale-down h-25 w-25 rounded-full "
                   src="https://i.ebayimg.com/images/g/-1UAAOSwzH9f4xc5/s-l200.webp"

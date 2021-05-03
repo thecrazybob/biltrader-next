@@ -12,7 +12,7 @@ const EmblaCarousel = ({ children }) => {
   const scrollPrev = useCallback(() => embla && embla.scrollPrev(), [embla]);
   const scrollNext = useCallback(() => embla && embla.scrollNext(), [embla]);
   const scrollTo = useCallback((index) => embla && embla.scrollTo(index), [
-    embla
+    embla,
   ]);
 
   const onSelect = useCallback(() => {
@@ -35,10 +35,10 @@ const EmblaCarousel = ({ children }) => {
         <div className="embla__viewport" ref={viewportRef}>
           <div className="embla__container">
             {children.map((Child, index) => (
-                <div className="embla__slide" key={index}>
-                    <div className="embla__slide__inner">{Child}</div>
-                </div>
-                ))}
+              <div className="embla__slide" key={index}>
+                <div className="embla__slide__inner">{Child}</div>
+              </div>
+            ))}
           </div>
         </div>
         <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
