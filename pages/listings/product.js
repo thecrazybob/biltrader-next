@@ -8,7 +8,7 @@ const Product = () => {
             <Header />
             {/* Main Body */}
             <div className="bg-gray-100">
-                <div className="mx-auto max-w-screen-2xl w-full leading-6 text-gray-600  sm:px-14 max-w-1/2">
+                <div className="mx-auto max-w-7xl w-full leading-6 text-gray-600 max-w-1/2">
                     {/* Bread Crumb Start */}
                     <div className="mx-auto pb-3">
                         <div className="pt-2">
@@ -447,8 +447,8 @@ const Product = () => {
                     {/* Other Info End  */}
                 </div>
                 {/* Main Body End */}
-                <Footer />
             </div>
+                <Footer />
 
 
         </>
