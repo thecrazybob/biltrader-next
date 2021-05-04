@@ -22,34 +22,27 @@ import Logo from "./Logo";
 
 const categories = [
   {
-    name: "Analytics",
-    description:
-      "Get a better understanding of where your traffic is coming from.",
+    name: "Mobile Phones",
     href: "#",
-    icon: ChartBarIcon,
+    icon: PhoneIcon,
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers in a more meaningful way.",
+    name: "Household",
+    href: "#",
+    icon: SupportIcon,
+  },
+  {
+    name: "Computers",
     href: "#",
     icon: CursorClickIcon,
   },
   {
-    name: "Security",
-    description: "Your customers' data will be safe and secure.",
-    href: "#",
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools that you're already using.",
+    name: "TextBooks",
     href: "#",
     icon: ViewGridIcon,
   },
   {
-    name: "Automations",
-    description:
-      "Build strategic funnels that will drive your customers to convert",
+    name: "Gym Equipment",
     href: "#",
     icon: RefreshIcon,
   },
@@ -128,24 +121,25 @@ export default function Header() {
                           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                               {categories.map((item) => (
-                                <a
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                >
-                                  <item.icon
-                                    className="flex-shrink-0 h-6 w-6 text-blue-600"
-                                    aria-hidden="true"
-                                  />
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">
-                                      {item.name}
-                                    </p>
-                                    <p className="mt-1 text-sm text-gray-500">
-                                      {item.description}
-                                    </p>
-                                  </div>
-                                </a>
+                                <Link href="/category">
+                                  <a
+                                    key={item.name}
+                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                  >
+                                    <item.icon
+                                      className="flex-shrink-0 h-6 w-6 text-blue-600"
+                                      aria-hidden="true"
+                                    />
+                                    <div className="ml-4">
+                                      <p className="text-base font-medium text-gray-900">
+                                        {item.name}
+                                      </p>
+                                      <p className="mt-1 text-sm text-gray-500">
+                                        {item.description}
+                                      </p>
+                                    </div>
+                                  </a>
+                                </Link>
                               ))}
                             </div>
                           </div>
@@ -154,31 +148,26 @@ export default function Header() {
                     </>
                   )}
                 </Popover>
-
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  Mobile Phones
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  Household
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  Computers
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-500 hover:text-gray-900"
-                >
-                  TextBooks
-                </a>
+                <Link href="/category">
+                  <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                    Mobile Phones
+                  </a>
+                </Link>
+                <Link  href="/category">
+                  <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                    Household
+                  </a>
+                </Link>
+                <Link href="/category">
+                  <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                    Computers
+                  </a>
+                </Link>
+                <Link href="/category">
+                  <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+                    TextBooks
+                  </a>
+                </Link>
               </Popover.Group>
 
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -210,7 +199,7 @@ export default function Header() {
             <Popover.Panel
               focus
               static
-              className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              className="absolute top-0 inset-x-0 p-2 transition z-50 transform origin-top-right md:hidden"
             >
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5">
