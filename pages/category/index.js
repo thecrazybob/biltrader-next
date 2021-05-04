@@ -6,11 +6,12 @@ const Category = () => {
   return (
     <>
       <Header />
+      <div className="bg-gray-100" >
       <div className="max-w-7xl mx-auto">
         <section className="relative py-24 leading-6 text-gray-900 bg-gray-100 md:md:py-16">
           <div className="mx-auto w-full text-gray-900 max-w-screen-2xl">
             <div className="flex flex-wrap">
-              <div className="flex-none w-full max-w-full md:flex-none md:w-1/3 lg:flex-none lg:w-1/4">
+              <div className="flex-none w-full max-w-full md:flex-none md:w-1/3 lg:flex-none lg:w-1/5">
                 <div className="box-border">
                   <div className="p-8 mb-8 bg-white rounded-md border border-gray-200 border-solid">
                     <h3 className="block mb-6 text-lg font-semibold xl:text-3xl leading-5">
@@ -41,17 +42,19 @@ const Category = () => {
                     <h3 className="block mb-6 text-lg font-semibold xl:text-3xl leading-5">
                       All Categories
                     </h3>
-                    <ul className="pl-8 mb-4 list-none">
+                    <ul className="mb-4 list-none">
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Hotel &amp; Travels
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+</svg>
+                          Smartphones
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -66,13 +69,15 @@ const Category = () => {
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Services
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+</svg>
+                          Household
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -84,16 +89,19 @@ const Category = () => {
                           </span>
                         </a>
                       </li>
+
                       <li className="mb-6 text-left">
                         <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Marketing
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+</svg>
+                          Computers
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -101,20 +109,22 @@ const Category = () => {
                               transform: "translateY(-50%)",
                             }}
                           >
-                            55
+                            18
                           </span>
                         </a>
                       </li>
                       <li className="mb-6 text-left">
-                        <a
+                      <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Real Estate
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+</svg>
+                          Books
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -127,15 +137,17 @@ const Category = () => {
                         </a>
                       </li>
                       <li className="mb-6 text-left">
-                        <a
+                      <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+</svg>
                           Electronics
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -143,20 +155,22 @@ const Category = () => {
                               transform: "translateY(-50%)",
                             }}
                           >
-                            60
+                            30
                           </span>
                         </a>
                       </li>
                       <li className="mb-6 text-left">
-                        <a
+                      <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Dress &amp; Clothing
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+</svg>
+                          Clothes
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -169,15 +183,17 @@ const Category = () => {
                         </a>
                       </li>
                       <li className="text-left">
-                        <a
+                      <a
                           href="javascript:void(0)"
-                          className="block relative pr-8 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                          className="block relative pr-8 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                           style={{ transition: "all 0.4s ease 0s" }}
                         >
-                          <i className="inline-block mr-1 leading-4 normal-case" />
-                          Jewelry &amp; Accessories
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block mr-1 leading-4 normal-case mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+Jewelry &amp; Accessories
                           <span
-                            className="block absolute w-8 h-8 text-xs leading-7 text-center no- border border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
+                            className="absolute w-8 h-8 text-xs leading-7 inline-block text-center no-underline border -right-0 border-gray-200 border-solid hover:bg-purple-700 hover:border-transparent hover:text-white"
                             style={{
                               transition: "all 0.4s ease 0s",
                               borderRadius: "50%",
@@ -185,43 +201,13 @@ const Category = () => {
                               transform: "translateY(-50%)",
                             }}
                           >
-                            45
+                            55
                           </span>
                         </a>
                       </li>
                     </ul>
                   </div>
-                  <div className="p-8 mb-8 bg-white rounded-md border border-gray-200 border-solid">
-                    <h3 className="block mb-6 text-lg font-semibold xl:text-3xl leading-5">
-                      Price Range
-                    </h3>
-                    <input
-                      type="range"
-                      className="w-full h-6 bg-transparent appearance-none cursor-pointer focus:shadow-none focus:no-"
-                      name="range"
-                      step={1}
-                      min={100}
-                      max={10000}
-                      defaultValue={10}
-                      onChange="rangePrimary.value=value"
-                    />
-                    <div className="relative pl-4">
-                      <label
-                        className="inline-block absolute left-0 text-sm cursor-default"
-                        style={{ top: "50%", transform: "translateY(-50%)" }}
-                      >
-                        $
-                      </label>
-                      <input
-                        type="text"
-                        id="rangePrimary"
-                        placeholder={100}
-                        className="inline-block border-none cursor-pointer focus:shadow-none focus:no-"
-                        style={{ borderWidth: "medium" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="p-8 mb-8 bg-white rounded-md border border-gray-200 border-solid">
+ <div className="p-8 mb-8 bg-white rounded-md border border-gray-200 border-solid">
                     <h3 className="block mb-6 text-lg font-semibold xl:text-3xl leading-5">
                       Condition
                     </h3>
@@ -299,54 +285,6 @@ const Category = () => {
                               Showing 1-12 of 21 ads found
                             </h3>
                           </div>
-                          <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/2">
-                            <nav className="box-border">
-                              <div
-                                className="flex float-right flex-wrap mt-4 border-gray-300 border-none"
-                                id="nav-tab"
-                                role="tablist"
-                                style={{
-                                  listStyle: "outside none none",
-                                  borderWidth: "medium",
-                                }}
-                              >
-                                <button
-                                  className="block py-1 px-2 mr-1 -mb-px text-center text-white no- normal-case bg-scroll bg-purple-700 bg-repeat bg-none rounded rounded-t border border-transparent border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no- hover:border-gray-300"
-                                  id="nav-grid-tab"
-                                  data-bs-toggle="tab"
-                                  data-bs-target="#nav-grid"
-                                  type="button"
-                                  role="tab"
-                                  aria-controls="nav-grid"
-                                  aria-selected="true"
-                                  style={{
-                                    transition:
-                                      "color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s",
-                                    backgroundPosition: "0px center",
-                                  }}
-                                >
-                                  <i className="inline-block leading-4 normal-case" />
-                                </button>
-                                <button
-                                  className="block py-1 px-2 text-center text-black no- normal-case bg-scroll bg-repeat bg-none rounded rounded-t border border-gray-200 border-solid cursor-pointer focus:border-gray-300 focus:shadow-none focus:no- hover:border-gray-300"
-                                  id="nav-list-tab"
-                                  data-bs-toggle="tab"
-                                  data-bs-target="#nav-list"
-                                  type="button"
-                                  role="tab"
-                                  aria-controls="nav-list"
-                                  aria-selected="false"
-                                  style={{
-                                    transition:
-                                      "color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s",
-                                    backgroundPosition: "0px center",
-                                  }}
-                                >
-                                  <i className="inline-block leading-4 normal-case" />
-                                </button>
-                              </div>
-                            </nav>
-                          </div>
                         </div>
                       </div>
                       <div className="box-border" id="nav-tabContent">
@@ -369,17 +307,19 @@ const Category = () => {
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
-layout='fill'
+                                    height={200}
+                                    width={300}
                                       src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
                                       style={{ transition: "all 0.3s ease 0s" }}
                                     />
                                   </a>
+
                                   <i
                                     className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
                                     style={{
@@ -407,21 +347,21 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Mobile
                                   </a>
                                   <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                     style={{
-                                      lineHeight: "1.2",
+
                                       fontSize: "calc(1.3rem + 0.6vw)",
                                     }}
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Apple Iphone X
@@ -430,10 +370,13 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                       Boston
                                     </a>
                                   </p>
@@ -444,18 +387,6 @@ layout='fill'
                                     >
                                       $890.00
                                     </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
                                   </ul>
                                 </div>
                               </div>
@@ -471,619 +402,7 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Sale
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Others
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Travel Kit
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      San Francisco
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $580.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Sale
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Electronic
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Nikon DSLR Camera
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      Alaska, USA
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $560.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-                                    layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Sale
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Furniture
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Poster Paint
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      Las Vegas
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $85.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Sale
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Furniture
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Official Metting Chair
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      Alaska, USA
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $750.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-green-800 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Rent
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Books &amp; Magazine
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Story Book
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      New York, USA
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $120.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    <Image
-layout='fill'
-                                      src="https://picsum.photos/id/0/5616/3744"
-                                      alt="#"
-                                      className="w-full align-middle"
-                                      style={{ transition: "all 0.3s ease 0s" }}
-                                    />
-                                  </a>
-                                  <i
-                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
-                                    style={{
-                                      left: "15px",
-                                      borderBottomLeftRadius: "3px",
-                                      borderBottomRightRadius: "3px",
-                                      clipPath:
-                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
-                                      backgroundPosition: "0% center",
-                                      fontFamily: '"LineIcons"',
-                                    }}
-                                  />
-                                  <span
-                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
-                                    style={{
-                                      transition: "all 0.4s ease 0s",
-                                      top: "15px",
-                                      right: "15px",
-                                      backgroundPosition: "0% center",
-                                    }}
-                                  >
-                                    Sale
-                                  </span>
-                                </div>
-                                <div className="py-5 pr-6 pl-5">
-                                  <a
-                                    href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                    style={{ transition: "all 0.4s ease 0s" }}
-                                  >
-                                    Electronic
-                                  </a>
-                                  <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
-                                    style={{
-                                      lineHeight: "1.2",
-                                      fontSize: "calc(1.3rem + 0.6vw)",
-                                    }}
-                                  >
-                                    <a
-                                      href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      Cctv camera
-                                    </a>
-                                  </h3>
-                                  <p className="mt-2 mb-4 font-sans text-sm">
-                                    <a
-                                      href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
-                                      style={{ transition: "all 0.4s ease 0s" }}
-                                    >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      Delhi, India
-                                    </a>
-                                  </p>
-                                  <ul className="overflow-hidden my-4 list-none">
-                                    <li
-                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
-                                      style={{ top: "5px" }}
-                                    >
-                                      $350.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
-                              <div
-                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
-                                style={{
-                                  transition: "all 0.4s ease 0s",
-                                  backgroundPosition: "0% center",
-                                }}
-                              >
-                                <div className="overflow-hidden relative">
-                                  <a
-                                    href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
@@ -1122,34 +441,37 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
-                                    Mobile
+                                    Others
                                   </a>
                                   <h3
-                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                     style={{
-                                      lineHeight: "1.2",
+
                                       fontSize: "calc(1.3rem + 0.6vw)",
                                     }}
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
-                                      Apple Iphone X
+                                      Travel Kit
                                     </a>
                                   </h3>
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
-                                      Boston
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      San Francisco
                                     </a>
                                   </p>
                                   <ul className="overflow-hidden my-4 list-none">
@@ -1157,19 +479,7 @@ layout='fill'
                                       className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
                                       style={{ top: "5px" }}
                                     >
-                                      $890.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
+                                      $580.00
                                     </li>
                                   </ul>
                                 </div>
@@ -1186,11 +496,12 @@ layout='fill'
                                 <div className="overflow-hidden relative">
                                   <a
                                     href="item-details.html"
-                                    className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     <Image
-layout='fill'
+                                    height={200}
+                                    width={300}
                                       src="https://picsum.photos/id/0/5616/3744"
                                       alt="#"
                                       className="w-full align-middle"
@@ -1224,7 +535,477 @@ layout='fill'
                                 <div className="py-5 pr-6 pl-5">
                                   <a
                                     href="javascript:void(0)"
-                                    className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Electronic
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
+                                    style={{
+
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Nikon DSLR Camera
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      Alaska, USA
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $560.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Sale
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Furniture
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
+                                    style={{
+
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Poster Paint
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      Las Vegas
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $85.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Sale
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Furniture
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    style={{
+                                      lineHeight: "1.2",
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Official Metting Chair
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      Alaska, USA
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $750.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-green-800 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Rent
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Books &amp; Magazine
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    style={{
+                                      lineHeight: "1.2",
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Story Book
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      New York, USA
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $120.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Sale
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Electronic
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    style={{
+                                      lineHeight: "1.2",
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Cctv camera
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      Delhi, India
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $350.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Sale
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                     style={{ transition: "all 0.4s ease 0s" }}
                                   >
                                     Mobile
@@ -1238,7 +1019,101 @@ layout='fill'
                                   >
                                     <a
                                       href="item-details.html"
-                                      className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                      Apple Iphone X
+                                    </a>
+                                  </h3>
+                                  <p className="mt-2 mb-4 font-sans text-sm">
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                      style={{ transition: "all 0.4s ease 0s" }}
+                                    >
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+                                      Boston
+                                    </a>
+                                  </p>
+                                  <ul className="overflow-hidden my-4 list-none">
+                                    <li
+                                      className="float-left relative text-lg font-semibold leading-7 text-left text-purple-700"
+                                      style={{ top: "5px" }}
+                                    >
+                                      $890.00
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex-none w-full max-w-full md:flex-none md:w-1/2 lg:flex-none lg:w-1/3  px-3">
+                              <div
+                                className="overflow-hidden mt-8 bg-scroll bg-repeat bg-none rounded-md border border-gray-300 border-solid hover:bg-white hover:shadow-xs"
+                                style={{
+                                  transition: "all 0.4s ease 0s",
+                                  backgroundPosition: "0% center",
+                                }}
+                              >
+                                <div className="overflow-hidden relative">
+                                  <a
+                                    href="item-details.html"
+                                    className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
+                                  </a>
+                                  <i
+                                    className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
+                                    style={{
+                                      left: "15px",
+                                      borderBottomLeftRadius: "3px",
+                                      borderBottomRightRadius: "3px",
+                                      clipPath:
+                                        "polygon(0px 0px, 53% 0px, 100% 0px, 100% 100%, 50% 85%, 0px 100%)",
+                                      backgroundPosition: "0% center",
+                                      fontFamily: '"LineIcons"',
+                                    }}
+                                  />
+                                  <span
+                                    className="inline-block absolute py-px px-2 text-xs tracking-wide leading-4 text-white no- capitalize bg-red-600 rounded-sm"
+                                    style={{
+                                      transition: "all 0.4s ease 0s",
+                                      top: "15px",
+                                      right: "15px",
+                                      backgroundPosition: "0% center",
+                                    }}
+                                  >
+                                    Sale
+                                  </span>
+                                </div>
+                                <div className="py-5 pr-6 pl-5">
+                                  <a
+                                    href="javascript:void(0)"
+                                    className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
+                                    style={{ transition: "all 0.4s ease 0s" }}
+                                  >
+                                    Mobile
+                                  </a>
+                                  <h3
+                                    className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                    style={{
+                                      lineHeight: "1.2",
+                                      fontSize: "calc(1.3rem + 0.6vw)",
+                                    }}
+                                  >
+                                    <a
+                                      href="item-details.html"
+                                      className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
                                       Samsung Glalaxy S8
@@ -1247,10 +1122,13 @@ layout='fill'
                                   <p className="mt-2 mb-4 font-sans text-sm">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                      className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                       style={{ transition: "all 0.4s ease 0s" }}
                                     >
-                                      <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                       Delaware, USA
                                     </a>
                                   </p>
@@ -1260,18 +1138,6 @@ layout='fill'
                                       style={{ top: "5px" }}
                                     >
                                       $299.00
-                                    </li>
-                                    <li className="float-right text-left">
-                                      <a
-                                        href="javascript:void(0)"
-                                        className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                          borderRadius: "50%",
-                                        }}
-                                      >
-                                        <i className="inline-block leading-3 normal-case" />
-                                      </a>
                                     </li>
                                   </ul>
                                 </div>
@@ -1288,7 +1154,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1300,7 +1166,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white  bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1312,7 +1178,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1324,7 +1190,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1336,13 +1202,15 @@ layout='fill'
                                   <li className="inline-block mt-2">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
                                       }}
                                     >
-                                      <i className="inline-block text-xs leading-3 normal-case" />
+                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-block text-xs leading-3 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+</svg>
                                     </a>
                                   </li>
                                 </ul>
@@ -1371,20 +1239,19 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <Image
-layout='fill'
-                                          src="https://picsum.photos/id/0/5616/3744"
-                                          alt="#"
-                                          className="w-full align-middle"
-                                          style={{
-                                            transition: "all 0.3s ease 0s",
-                                          }}
-                                        />
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
                                       </a>
                                       <i
                                         className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
@@ -1415,7 +1282,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1423,15 +1290,15 @@ layout='fill'
                                         Others
                                       </a>
                                       <h3
-                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                         style={{
-                                          lineHeight: "1.2",
+
                                           fontSize: "calc(1.3rem + 0.6vw)",
                                         }}
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1442,12 +1309,15 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
                                         >
-                                          <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                           San Francisco
                                         </a>
                                       </p>
@@ -1461,7 +1331,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1489,20 +1359,19 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <Image
-layout='fill'
-                                          src="https://picsum.photos/id/0/5616/3744"
-                                          alt="#"
-                                          className="w-full align-middle"
-                                          style={{
-                                            transition: "all 0.3s ease 0s",
-                                          }}
-                                        />
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
                                       </a>
                                       <i
                                         className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
@@ -1533,7 +1402,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1541,15 +1410,15 @@ layout='fill'
                                         Electronic
                                       </a>
                                       <h3
-                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                         style={{
-                                          lineHeight: "1.2",
+
                                           fontSize: "calc(1.3rem + 0.6vw)",
                                         }}
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1560,12 +1429,15 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
                                         >
-                                          <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                           Alaska, USA
                                         </a>
                                       </p>
@@ -1579,7 +1451,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1607,20 +1479,19 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <Image
-layout='fill'
-                                          src="https://picsum.photos/id/0/5616/3744"
-                                          alt="#"
-                                          className="w-full align-middle"
-                                          style={{
-                                            transition: "all 0.3s ease 0s",
-                                          }}
-                                        />
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
                                       </a>
                                       <i
                                         className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
@@ -1651,7 +1522,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1659,15 +1530,15 @@ layout='fill'
                                         Mobile
                                       </a>
                                       <h3
-                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                         style={{
-                                          lineHeight: "1.2",
+
                                           fontSize: "calc(1.3rem + 0.6vw)",
                                         }}
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1678,12 +1549,15 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
                                         >
-                                          <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                           Boston
                                         </a>
                                       </p>
@@ -1697,7 +1571,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1725,20 +1599,19 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <Image
-layout='fill'
-                                          src="https://picsum.photos/id/0/5616/3744"
-                                          alt="#"
-                                          className="w-full align-middle"
-                                          style={{
-                                            transition: "all 0.3s ease 0s",
-                                          }}
-                                        />
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
                                       </a>
                                       <i
                                         className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
@@ -1769,7 +1642,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1777,15 +1650,15 @@ layout='fill'
                                         Furniture
                                       </a>
                                       <h3
-                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                         style={{
-                                          lineHeight: "1.2",
+
                                           fontSize: "calc(1.3rem + 0.6vw)",
                                         }}
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1796,12 +1669,15 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
                                         >
-                                          <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
                                           Las Vegas
                                         </a>
                                       </p>
@@ -1815,7 +1691,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1843,20 +1719,19 @@ layout='fill'
                                     <div className="overflow-hidden relative">
                                       <a
                                         href="item-details.html"
-                                        className="inline-block w-full text-blue-600  cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-"
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
                                       >
-                                        <Image
-layout='fill'
-                                          src="https://picsum.photos/id/0/5616/3744"
-                                          alt="#"
-                                          className="w-full align-middle"
-                                          style={{
-                                            transition: "all 0.3s ease 0s",
-                                          }}
-                                        />
+                                    <Image
+                                    height={200}
+                                    width={300}
+                                      src="https://picsum.photos/id/0/5616/3744"
+                                      alt="#"
+                                      className="w-full align-middle"
+                                      style={{ transition: "all 0.3s ease 0s" }}
+                                    />
                                       </a>
                                       <i
                                         className="inline-block absolute w-6 h-8 text-sm leading-7 text-center text-white normal-case bg-purple-700"
@@ -1887,7 +1762,7 @@ layout='fill'
                                     <div className="py-5 pr-6 pl-5">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block text-sm font-medium leading-5 text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                        className="inline-block text-sm font-medium leading-5 text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                         }}
@@ -1895,15 +1770,15 @@ layout='fill'
                                         Books &amp; Magazine
                                       </a>
                                       <h3
-                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl"
+                                        className="pt-2 my-2 font-medium border-t border-gray-200 border-solid xl:text-3xl leading-5"
                                         style={{
-                                          lineHeight: "1.2",
+
                                           fontSize: "calc(1.3rem + 0.6vw)",
                                         }}
                                       >
                                         <a
                                           href="item-details.html"
-                                          className="inline-block text-lg font-semibold leading-5  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
@@ -1914,12 +1789,16 @@ layout='fill'
                                       <p className="mt-2 mb-4 font-sans text-sm">
                                         <a
                                           href="javascript:void(0)"
-                                          className="inline-block text-gray-600  cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-"
+                                          className="inline-block text-gray-600 cursor-pointer hover:text-purple-700 focus:shadow-none focus:no-underline"
                                           style={{
                                             transition: "all 0.4s ease 0s",
                                           }}
                                         >
-                                          <i className="inline-block mr-1 leading-4 text-purple-700 normal-case"></i>
+                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6\4 w-4 inline-block mr-1 leading-4 text-purple-700 normal-case" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+
                                           New York, USA
                                         </a>
                                       </p>
@@ -1933,7 +1812,7 @@ layout='fill'
                                         <li className="float-right text-left">
                                           <a
                                             href="javascript:void(0)"
-                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600  border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                            className="block w-8 h-8 text-sm leading-9 text-center text-gray-600 border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                             style={{
                                               transition: "all 0.4s ease 0s",
                                               borderRadius: "50%",
@@ -1959,7 +1838,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1971,7 +1850,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white  bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white bg-scroll bg-purple-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1983,7 +1862,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -1995,7 +1874,7 @@ layout='fill'
                                   <li className="inline-block mt-2 mr-1">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -2007,7 +1886,7 @@ layout='fill'
                                   <li className="inline-block mt-2">
                                     <a
                                       href="javascript:void(0)"
-                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center  bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-"
+                                      className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-purple-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                       style={{
                                         transition: "all 0.4s ease 0s",
                                         backgroundPosition: "0% center",
@@ -2029,6 +1908,7 @@ layout='fill'
             </div>
           </div>
         </section>
+      </div>
       </div>
       <Footer />
     </>
