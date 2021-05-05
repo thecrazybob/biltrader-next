@@ -1,16 +1,41 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import fetchJson from "../../lib/fetchJson";
+import { useState } from "react";
+import Router from "next/router";
 
 export default function NewListing() {
-    
+  const [errorMsg, setErrorMsg] = useState("");
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const body = {
+      title: e.currentTarget.productName.value,
+      description: e.currentTarget.description.value,
+      price: e.currentTarget.price.value,
+      categoryId: e.currentTarget.category.value,
+    };
+
+    try {
+      fetchJson("http://localhost:8080/api/v1/listing/new", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      Router.push("/");
+    } catch (error) {
+      console.error("An unexpected error happened:", error);
+      setErrorMsg(error.data.message);
+    }
+  }
+
   return (
     <>
       <Header />
 
       <div className="bg-gray-100">
-      <div className="hidden sm:block" aria-hidden="true">
-          <div className="py-5">
-          </div>
+        <div className="hidden sm:block" aria-hidden="true">
+          <div className="py-5"></div>
         </div>
         <div className="mt-10 sm:mt-0 max-w-7xl mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-6">
@@ -26,41 +51,44 @@ export default function NewListing() {
             </div>
 
             <div className="mt-5 md:mt-0 md:col-span-2">
-              <form>
+              <form method="POST" encType="multipart/form-data">
                 <div className="shadow overflow-hidden sm:rounded-md">
                   <div className="px-4 py-5 bg-white sm:p-6">
                     <div className="grid grid-cols-6 gap-6">
                       <div className="col-span-4 sm:col-span-3">
                         <label
-                          htmlFor="first_name"
+                          htmlFor="productName"
                           className="block text-sm font-medium text-gray-700"
                         >
                           Product Name
                         </label>
                         <input
                           type="text"
-                          name="product_name"
-                          id="product_name"
+                          name="productName"
+                          id="productName"
                           className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
                       <div className="col-span-6 sm:col-span-3">
                         <label
-                          htmlFor="country"
+                          htmlFor="category"
                           className="block text-sm font-medium text-gray-700"
                         >
                           Product Category
                         </label>
                         <select
-                          id="country"
-                          name="country"
-                          autoComplete="country"
+                          id="category"
+                          name="category"
+                          autoComplete="category"
                           className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         >
-                          <option>United States</option>
-                          <option>Canada</option>
-                          <option>Mexico</option>
+                          <option>Electronics</option>
+                          <option>Phones</option>
+                          <option>Computers</option>
+                          <option>Academics</option>
+                          <option>Books</option>
+                          <option>Notebooks</option>
                         </select>
                       </div>
 
@@ -77,9 +105,9 @@ export default function NewListing() {
                           autoComplete="country"
                           className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         >
-                          <option>United States</option>
-                          <option>Canada</option>
-                          <option>Mexico</option>
+                          <option>0-3 month</option>
+                          <option>6-12 month</option>
+                          <option> >1 year </option>
                         </select>
                       </div>
 
@@ -96,9 +124,9 @@ export default function NewListing() {
                           autoComplete="country"
                           className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                         >
-                          <option>United States</option>
-                          <option>Canada</option>
-                          <option>Mexico</option>
+                          <option>Barely Used</option>
+                          <option>Average Use</option>
+                          <option>Scratches & Dents </option>
                         </select>
                       </div>
 
@@ -119,7 +147,7 @@ export default function NewListing() {
 
                       <div className="col-span-3 sm:col-start-4 sm:col-span-2">
                         <label
-                          htmlFor="company_website"
+                          htmlFor="price"
                           className="block text-sm font-medium text-gray-700"
                         >
                           Price
@@ -130,8 +158,8 @@ export default function NewListing() {
                           </span>
                           <input
                             type="text"
-                            name="company_website"
-                            id="company_website"
+                            name="price"
+                            id="price"
                             className="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
                           />
                         </div>
@@ -139,15 +167,15 @@ export default function NewListing() {
 
                       <div className="col-span-6">
                         <label
-                          htmlFor="about"
+                          htmlFor="description"
                           className="block text-sm font-medium text-gray-700"
                         >
                           Description
                         </label>
                         <div className="mt-1">
                           <textarea
-                            id="about"
-                            name="about"
+                            id="description"
+                            name="description"
                             rows={3}
                             className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
                             placeholder="Brief Description for your Product"
@@ -214,8 +242,7 @@ export default function NewListing() {
         </div>
 
         <div className="hidden sm:block" aria-hidden="true">
-          <div className="py-5">
-          </div>
+          <div className="py-5"></div>
         </div>
       </div>
       <Footer />
