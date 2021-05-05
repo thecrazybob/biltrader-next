@@ -492,7 +492,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $890.00
+                                        TL890.00
                                       </li>
                                     </ul>
                                   </div>
@@ -604,7 +604,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        San Francisco
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -612,7 +612,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $580.00
+                                        TL580.00
                                       </li>
                                     </ul>
                                   </div>
@@ -732,7 +732,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $560.00
+                                        TL560.00
                                       </li>
                                     </ul>
                                   </div>
@@ -852,7 +852,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $85.00
+                                        TL85.00
                                       </li>
                                     </ul>
                                   </div>
@@ -973,7 +973,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $750.00
+                                        TL750.00
                                       </li>
                                     </ul>
                                   </div>
@@ -1086,7 +1086,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        New York, USA
+                                        Main Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -1094,7 +1094,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $120.00
+                                        TL120.00
                                       </li>
                                     </ul>
                                   </div>
@@ -1207,7 +1207,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Delhi, India
+                                        Main Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -1215,7 +1215,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $350.00
+                                        TL350.00
                                       </li>
                                     </ul>
                                   </div>
@@ -1336,7 +1336,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $890.00
+                                        TL890.00
                                       </li>
                                     </ul>
                                   </div>
@@ -1457,7 +1457,7 @@ const Category = () => {
                                         className="float-left relative text-lg font-semibold leading-7 text-left text-blue-700"
                                         style={{ top: "5px" }}
                                       >
-                                        $299.00
+                                        TL299.00
                                       </li>
                                     </ul>
                                   </div>
@@ -1474,7 +1474,7 @@ const Category = () => {
                                     <li className="inline-block mt-2 mr-1">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-blue-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white bg-scroll bg-blue-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-blue-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           backgroundPosition: "0% center",
@@ -1486,7 +1486,7 @@ const Category = () => {
                                     <li className="inline-block mt-2 mr-1">
                                       <a
                                         href="javascript:void(0)"
-                                        className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center text-white bg-scroll bg-blue-700 bg-repeat bg-none rounded border border-transparent border-solid cursor-pointer hover:bg-blue-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
+                                        className="inline-block w-10 h-10 text-sm font-medium leading-9 text-center bg-scroll bg-white bg-repeat bg-none rounded border border-gray-200 border-solid cursor-pointer hover:bg-blue-700 hover:border-transparent hover:text-white focus:shadow-none focus:no-underline"
                                         style={{
                                           transition: "all 0.4s ease 0s",
                                           backgroundPosition: "0% center",
