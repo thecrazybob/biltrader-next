@@ -7,7 +7,7 @@ const Product = () => {
     <>
       <Header />
       {/* Main Body */}
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 pb-5">
         <div className="mx-auto max-w-7xl w-full leading-6 text-gray-600 max-w-1/2">
           {/* Bread Crumb Start */}
           <div className="mx-auto pb-3">

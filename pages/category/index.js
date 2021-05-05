@@ -7,7 +7,7 @@ const Category = () => {
   return (
     <>
       <Header />
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 pb-5">
         <div className="max-w-7xl mx-auto">
           <section className="relative py-24 leading-6 text-gray-900 bg-gray-100 md:md:py-16">
             <div className="mx-auto w-full text-gray-900 max-w-screen-2xl">
