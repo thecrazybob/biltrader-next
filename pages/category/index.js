@@ -466,7 +466,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -484,7 +484,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Boston
+                                        Main Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -586,7 +586,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -706,7 +706,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -724,7 +724,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Alaska, USA
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -826,7 +826,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -844,7 +844,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Las Vegas
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -947,7 +947,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -965,7 +965,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Alaska, USA
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -1068,7 +1068,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -1189,7 +1189,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -1207,7 +1207,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Delhi, India
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -1310,7 +1310,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -1328,7 +1328,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Boston
+                                        Main Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">
@@ -1431,7 +1431,7 @@ const Category = () => {
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
-                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case"
+                                          className="h-6\4 w-4 inline-block mr-1 leading-4 text-blue-700 normal-case mb-1"
                                           fill="none"
                                           viewBox="0 0 24 24"
                                           stroke="currentColor"
@@ -1449,7 +1449,7 @@ const Category = () => {
                                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                           />
                                         </svg>
-                                        Delaware, USA
+                                        East Campus
                                       </a>
                                     </p>
                                     <ul className="overflow-hidden my-4 list-none">

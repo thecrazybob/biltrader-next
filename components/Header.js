@@ -170,7 +170,7 @@ export default function Header() {
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 {user?.isLoggedIn ? (
                   <>
-                   <a>Welcome {user.firstName}</a>
+                    <a>Welcome {user.firstName}</a>
                     <Link href="/newlisting">
                       <a className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
                         Post Ad
@@ -261,20 +261,32 @@ export default function Header() {
                     ))}
                   </div>
                   <div>
-                    <Link href="/register">
-                      <a className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700">
-                        Sign up
-                      </a>
-                    </Link>
-                    <p className="mt-6 text-center text-base font-medium text-gray-500">
-                      Already Registered?{" "}
-                      <Link
-                        href="/login"
-                        className="text-blue-600 hover:text-blue-500"
-                      >
-                        <a>Sign in</a>
-                      </Link>
-                    </p>
+                    {user?.isLoggedIn ? (
+                      <>
+                        <a>Welcome {user.firstName}</a>
+                        <Link href="/newlisting">
+                          <a className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 max-w-1/2">
+                            Post Ad
+                          </a>
+                        </Link>
+                      </>
+                    ) : (
+                      <>
+                        <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+                          <Link
+                            href="/login"
+                            className="mt-6 text-center text-base font-medium text-gray-500"
+                          >
+                            <a>Sign in</a>
+                          </Link>
+                          <Link href="/register">
+                            <a className=" flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 w-1/2">
+                              Sign up
+                            </a>
+                          </Link>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
