@@ -10,7 +10,7 @@ export default function NewListing() {
     e.preventDefault();
 
     const body = {
-    ownerId: 1,
+      ownerId: 1,
       title: e.currentTarget.productName.value,
       description: e.currentTarget.description.value,
       price: e.currentTarget.price.value,
@@ -108,7 +108,7 @@ export default function NewListing() {
                         >
                           <option>0-3 month</option>
                           <option>6-12 month</option>
-                          <option> >1 year </option>
+                          <option>1 year </option>
                         </select>
                       </div>
 
