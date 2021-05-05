@@ -10,6 +10,7 @@ export default function NewListing() {
     e.preventDefault();
 
     const body = {
+    ownerId: 1,
       title: e.currentTarget.productName.value,
       description: e.currentTarget.description.value,
       price: e.currentTarget.price.value,
@@ -83,12 +84,12 @@ export default function NewListing() {
                           autoComplete="category"
                           className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         >
-                          <option>Electronics</option>
-                          <option>Phones</option>
-                          <option>Computers</option>
-                          <option>Academics</option>
-                          <option>Books</option>
-                          <option>Notebooks</option>
+                          <option value="100">Electronics</option>
+                          <option value="101">Phones</option>
+                          <option value="102">Computers</option>
+                          <option value="200">Academics</option>
+                          <option value="201">Books</option>
+                          <option value="202">Notebooks</option>
                         </select>
                       </div>
 
