@@ -1,7 +1,34 @@
 import { LockClosedIcon } from "@heroicons/react/solid";
 import Logo from "../../components/Logo";
+import fetchJson from "../../lib/fetchJson";
+import { useState } from "react";
+import Router from "next/router";
 
 export default function Register() {
+  const [errorMsg, setErrorMsg] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const body = {
+      firstName: e.currentTarget.firstName.value,
+      lastName: e.currentTarget.lastName.value,
+      email: e.currentTarget.email.value,
+      password: e.currentTarget.password.value,
+    };
+
+    try {
+      fetchJson("http://localhost:8080/api/v1/registration", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      Router.push("/login");
+    } catch (error) {
+      console.error("An unexpected error happened:", error);
+      setErrorMsg(error.data.message);
+    }
+  }
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
@@ -15,7 +42,7 @@ export default function Register() {
             "@bilkent.edu.tr"
           </p>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
           <input type="hidden" name="remember" defaultValue="true" />
           <div className="rounded-md shadow-sm -space-y-px">
             <div className="pt-2">
@@ -23,8 +50,8 @@ export default function Register() {
                 First name
               </label>
               <input
-                id="first-name"
-                name="first-name"
+                id="firstName"
+                name="firstName"
                 type="text"
                 required
                 className="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
@@ -36,8 +63,8 @@ export default function Register() {
                 Last name
               </label>
               <input
-                id="last-name"
-                name="last-name"
+                id="lastName"
+                name="lastName"
                 type="text"
                 autoComplete="last-name"
                 required
@@ -92,6 +119,8 @@ export default function Register() {
               </label>
             </div>
           </div>
+
+          {errorMsg && <p className="error">{errorMsg}</p>}
 
           <div>
             <button
