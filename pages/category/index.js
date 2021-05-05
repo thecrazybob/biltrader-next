@@ -386,23 +386,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
 
@@ -444,16 +445,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Apple Iphone X
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Apple Iphone X
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -507,23 +507,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -564,16 +565,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Travel Kit
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Travel Kit
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -627,23 +627,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -684,16 +685,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Nikon DSLR Camera
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Nikon DSLR Camera
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -747,23 +747,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -804,16 +805,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Poster Paint
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Poster Paint
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -867,23 +867,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -925,16 +926,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Official Metting Chair
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Official Metting Chair
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -988,23 +988,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -1046,16 +1047,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Story Book
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Story Book
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -1109,23 +1109,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -1167,16 +1168,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Cctv camera
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Cctv camera
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -1230,23 +1230,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -1288,16 +1289,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Apple Iphone X
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Apple Iphone X
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">
@@ -1351,23 +1351,24 @@ const Category = () => {
                                   }}
                                 >
                                   <div className="overflow-hidden relative">
-                                    <Link
-                                      href="/listings/product"
-
-
-                                    >
-                                        <a style={{ transition: "all 0.4s ease 0s" }} className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline">
-                                      <Image
-                                        height={200}
-                                        width={300}
-                                        layout="responsive"
-                                        src="https://picsum.photos/id/0/5616/3744"
-                                        alt="#"
-                                        className="w-full align-middle"
+                                    <Link href="/listings/product">
+                                      <a
                                         style={{
-                                          transition: "all 0.3s ease 0s",
+                                          transition: "all 0.4s ease 0s",
                                         }}
-                                      />
+                                        className="inline-block w-full text-blue-600 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                      >
+                                        <Image
+                                          height={200}
+                                          width={300}
+                                          layout="responsive"
+                                          src="https://picsum.photos/id/0/5616/3744"
+                                          alt="#"
+                                          className="w-full align-middle"
+                                          style={{
+                                            transition: "all 0.3s ease 0s",
+                                          }}
+                                        />
                                       </a>
                                     </Link>
                                     <i
@@ -1409,16 +1410,15 @@ const Category = () => {
                                         fontSize: "calc(1.3rem + 0.6vw)",
                                       }}
                                     >
-                                        <Link href="/category">
-                                      <a
-
-                                        className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
-                                        style={{
-                                          transition: "all 0.4s ease 0s",
-                                        }}
-                                      >
-                                        Samsung Glalaxy S8
-                                      </a>
+                                      <Link href="/category">
+                                        <a
+                                          className="inline-block text-lg font-semibold leading-5 cursor-pointer hover:text-blue-700 focus:shadow-none focus:no-underline"
+                                          style={{
+                                            transition: "all 0.4s ease 0s",
+                                          }}
+                                        >
+                                          Samsung Glalaxy S8
+                                        </a>
                                       </Link>
                                     </h3>
                                     <p className="mt-2 mb-4 font-sans text-sm">

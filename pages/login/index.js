@@ -1,7 +1,40 @@
 import Image from "next/image";
 import Logo from "../../components/Logo";
+import { useState } from "react";
+import useUser from "../../lib/useUser";
+import fetchJson from "../../lib/fetchJson";
+import PropTypes from "prop-types";
 
 const Login = () => {
+  const { mutateUser } = useUser({
+    redirectTo: "/",
+    redirectIfFound: true,
+  });
+
+  const [errorMsg, setErrorMsg] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const body = {
+      email: e.currentTarget.email.value,
+      password: e.currentTarget.password.value,
+    };
+
+    try {
+      await mutateUser(
+        fetchJson("http://localhost:8080/api/v1/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        })
+      );
+    } catch (error) {
+      console.error("An unexpected error happened:", error);
+      setErrorMsg(error.data.message);
+    }
+  }
+
   return (
     <>
       <div className="min-h-screen bg-white flex">
@@ -14,7 +47,7 @@ const Login = () => {
 
             <div className="mt-8">
               <div className="mt-6">
-                <form action="#" method="POST" className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label
                       htmlFor="email"
@@ -67,6 +100,7 @@ const Login = () => {
                       </label>
                     </div>
                   </div>
+                  {errorMsg && <p className="error">{errorMsg}</p>}
                   <div>
                     <button
                       type="submit"
@@ -94,3 +128,8 @@ const Login = () => {
 };
 
 export default Login;
+
+Login.propTypes = {
+  errorMessage: PropTypes.string,
+  onSubmit: PropTypes.func,
+};
