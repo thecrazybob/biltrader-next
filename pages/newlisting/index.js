@@ -51,7 +51,7 @@ export default function NewListing() {
             </div>
 
             <div className="mt-5 md:mt-0 md:col-span-2">
-              <form method="POST" encType="multipart/form-data">
+              <form onSubmit={handleSubmit}>
                 <div className="shadow overflow-hidden sm:rounded-md">
                   <div className="px-4 py-5 bg-white sm:p-6">
                     <div className="grid grid-cols-6 gap-6">
@@ -66,7 +66,7 @@ export default function NewListing() {
                           type="text"
                           name="productName"
                           id="productName"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -81,7 +81,7 @@ export default function NewListing() {
                           id="category"
                           name="category"
                           autoComplete="category"
-                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         >
                           <option>Electronics</option>
                           <option>Phones</option>
@@ -103,7 +103,7 @@ export default function NewListing() {
                           id="country"
                           name="country"
                           autoComplete="country"
-                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         >
                           <option>0-3 month</option>
                           <option>6-12 month</option>
@@ -122,7 +122,7 @@ export default function NewListing() {
                           id="country"
                           name="country"
                           autoComplete="country"
-                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         >
                           <option>Barely Used</option>
                           <option>Average Use</option>
@@ -141,7 +141,7 @@ export default function NewListing() {
                           type="text"
                           name="brand"
                           id="brand"
-                          className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                          className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
 
@@ -160,7 +160,7 @@ export default function NewListing() {
                             type="text"
                             name="price"
                             id="price"
-                            className="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
+                            className="focus:ring-blue-500 focus:border-blue-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
                           />
                         </div>
                       </div>
@@ -177,7 +177,7 @@ export default function NewListing() {
                             id="description"
                             name="description"
                             rows={3}
-                            className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                            className="shadow-sm focus:ring-blue-500 focus:border-blue-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
                             placeholder="Brief Description for your Product"
                             defaultValue={""}
                           />
@@ -207,7 +207,7 @@ export default function NewListing() {
                             <div className="flex text-sm text-gray-600">
                               <label
                                 htmlFor="file-upload"
-                                className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                                className="relative cursor-pointer bg-white rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500"
                               >
                                 <span>Upload a file</span>
                                 <input
@@ -230,7 +230,7 @@ export default function NewListing() {
                   <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
                     <button
                       type="submit"
-                      className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Save
                     </button>
