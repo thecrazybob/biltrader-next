@@ -1,9 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ListingCard from "../components/ListingCard";
 import Image from "next/image";
+import Link from "next/link";
 
-const Home = () => {
+const Home = ({ listings }) => {
   return (
     <>
       <Header />
@@ -184,10 +186,73 @@ const Home = () => {
 
       {/* End of Popular Categories */}
 
-      <ListingCard />
+      <>
+        <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+          <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
+            Explore Popular Deals
+          </h2>
+        </div>
+        <div className="py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ul className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              {listings.map((listing, index) => (
+                <li
+                  key={index}
+                  className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
+                >
+                  <Link href="/listings/product">
+                    <a>
+                      <div className="flex-1 flex flex-col">
+                        <Image
+                          className="object-fill bg-black"
+                          src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                          alt=""
+                          width={300}
+                          height={200}
+
+                        />
+                        <h3 className="mt-6 text-gray-900 text-sm font-medium">
+                          {listing.title}
+                        </h3>
+                        <dl className="mt-1 flex-grow flex flex-col justify-between">
+                          <dt className="sr-only">{listing.title}</dt>
+                          <dd className="text-gray-500 text-sm">
+                            {listing.category}
+                          </dd>
+                          <dt className="sr-only">{listing.owner.firstName}</dt>
+                          <dd className="my-3">
+                            <span className="px-2 py-1 text-blue-800 text-xs font-medium bg-blue-100 rounded-full">
+                              TL{listing.price}
+                            </span>
+                          </dd>
+                        </dl>
+                      </div>
+                    </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </>
       <Footer />
     </>
   );
 };
+
+export async function getStaticProps() {
+  // Call an external API endpoint to get posts.
+  // You can use any data fetching library
+  const res = await fetch("http://localhost:8080/api/v1/listing/all");
+  const listings = await res.json();
+
+  // By returning { props: { posts } }, the Blog component
+  // will receive `posts` as a prop at build time
+  return {
+    props: {
+      listings,
+    },
+  };
+}
 
 export default Home;
